@@ -13,7 +13,7 @@
                 <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="arrayInput&lt;br&gt;arrayOutput&lt;br&gt;lengthArrayInput&lt;br&gt;indexInput = 0&lt;br&gt;indexOutput = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="3" value="arrayInput&lt;br&gt;arrayOutput&lt;br&gt;length = size(arrayInput)&lt;br&gt;indexInput = 0&lt;br&gt;indexOutput = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="315.02" y="150" width="170" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="10">
@@ -28,7 +28,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="indexInput&amp;nbsp;&amp;lt; lengthArrayInput" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="indexInput&amp;nbsp;&amp;lt; length" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="291.19" y="280" width="217.65" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="13">
@@ -39,7 +39,7 @@
                         <mxPoint x="180" y="415" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="&lt;span&gt;arrayInput(&lt;/span&gt;indexInput&lt;span&gt;).Length&amp;nbsp; &amp;lt;= 3&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="&lt;span&gt;size(arrayInput(&lt;/span&gt;indexInput&lt;span&gt;)) &amp;lt;= 3&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="280.01" y="380" width="240" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="20">
